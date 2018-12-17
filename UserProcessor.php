@@ -33,7 +33,7 @@ $host="127.0.0.1";
 $port=3306;
 $socket="";
 $user="root";
-$password="";
+$password="12341234";
 $dbname="StudySpacesDB2";
 
 $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
@@ -182,7 +182,6 @@ if($FirstName != "" && $LastName != "" && $Handle != "")
 									else{
 											    echo "ERROR: Could not able to execute $sql1. " . mysqli_error($con);
 											}
-
 							}
 						}
 					}

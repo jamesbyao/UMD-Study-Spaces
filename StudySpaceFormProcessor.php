@@ -18,7 +18,7 @@
 	<div class="mainHeader">
 		<img src="MainPage.jpg">
 		<div class="centerText"> UMD Study Spaces </div>
-	</div>
+	</div> $
 	<header>
 			<a href="Home.html">Home</a>
 			<a href="Location.html">Locations</a>
@@ -33,7 +33,7 @@ $host="127.0.0.1";
 $port=3306;
 $socket="";
 $user="root";
-$password="";
+$password="12341234";
 $dbname="StudySpacesDB2";
 
 $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
