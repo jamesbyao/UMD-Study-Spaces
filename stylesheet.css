@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+header {
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+header a:hover {
+  border-bottom: 3px solid blue;
+}
+
+header a:acive {
+  border-bottom: 3px solid blue;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  width: 555px;
+}
+
+form .submit {
+  border-color: transparent;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+input {
+  height: 45px;
+}
+
+/* Home Page Styling */
+.about {
+  padding: 25px;
+  text-align: center;
+}
+
+.mainHeader {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.mainHeader img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+
+/* Location Styling */
+.locationColumn {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.locationRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 14px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+
+.formControl {
+  width: 600px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 16px;
+}
+
+.emailHome {
+  height: 30px;
+  width: 200px;
+}
+
+.commentHome {
+  width: 400px;
+}
+
+}

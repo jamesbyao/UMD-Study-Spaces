@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> University of Maryland Study Spaces </title>
+
+    <!-- BootStrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+
+    <!-- Custom CSS Stylesheet-->
+    <link href="stylesheet.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="mainHeader">
+    <img src="MainPage.jpg">
+    <div class="centerText"> UMD Study Spaces </div>
+  </div>
+  <header>
+      <a href="Home.html">Home</a>
+      <a href="Location.html">Locations</a>
+      <a href="Contact.html">Contact</a>
+      <a href="Ratings.html">Ratings</a>
+  </header>
+
+  <form id="submissionForm" action="UserProcessor.php" method="POST">
+    <h3> Become a User </h3>
+    <input placeholder="Your First Name" name="first-name" type="text" class="formControl">
+    <input placeholder="Your Last Name" name="last-name" type="text" class="formControl">
+    <input placeholder="Your Handle" name="handle" type="text" class="formControl">
+    <h3> Rate A Space </h3>
+    <fieldset>
+      <p> Please choose the building you wish to rate </p>
+      <select name="Buildings">
+        <option value=""> None </option>
+        <option value="Stem Library"> Stem Library </option>
+        <option value="Smith Performing Arts Center"> Smith Performing Arts Center </option>
+        <option value="Engineering Building"> Engineering Building </option>
+        <option value="Stamp Student Union"> Stamp Student Union </option>
+        <option value="Hornbake Library"> Hornbake Library </option>
+        <option value="Chemistry Building"> Chemistry Building </option>
+        <option value="Moxley Gardens at Alumni Center"> Moxley Gardens at Alumni Center </option>
+        <option value="Edward St. John (ESJ)"> Edward St. John (ESJ) </option>
+        <option value="McKeldin Library"> McKeldin Library </option>
+        <option value="Art Building"> Art Building </option>
+        <option value="Benjamin Building"> Benjamin Building </option>
+        <option value="Tawes Hall"> Tawes Hall </option>
+        <option value="Buildings with Classroom Space"> Buildings with Classroom Space </option>
+        <option value="LeFrak Hall"> LeFrak Hall </option>
+        <option value="Niels Bohr Library"> Niels Bohr Library </option>
+        <option value="Hyattsville Public Library"> Hyattsville Public Library </option>
+        <option value="Starbucks"> Starbucks </option>
+        <option value="Vigilante Coffee"> Vigilante Coffee </option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <p> Please choose the value of rating </p>
+      <select name="Ratings">
+        <option value=""> No Rating </option>
+        <option value="0"> 0 </option>
+        <option value="1"> 1 </option>
+        <option value="2"> 2 </option>
+        <option value="3"> 3 </option>
+        <option value="4"> 4 </option>
+        <option value="5"> 5 </option>
+      </select>
+    </fieldset>
+    <br></br>
+  <button name="submit" class="button" type="submit" >Submit</button>
+  </form>
+</div>
+
+<!-- BootStrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Custom Javascript -->
+<script src="js_script.js"></script>
+</body>
+
+</html>
